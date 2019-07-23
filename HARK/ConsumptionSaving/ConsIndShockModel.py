@@ -623,6 +623,8 @@ class ConsIndShockSetup(ConsPerfForesightSolver):
         -------
         none
         '''
+        
+        
         ConsPerfForesightSolver.assignParameters(self,solution_next,DiscFac,LivPrb,
                                                 CRRA,Rfree,PermGroFac)
         self.BoroCnstArt    = BoroCnstArt
